@@ -69,7 +69,8 @@ Conclusion
 
 Which case does PCA do better? Why?
 
-PCA performs better when there is noise in the dependent variable and the independent variable is noise-free. This is because PCA is more robust to noise in the data than least squares regression. PCA can identify the underlying structure of the data even when there is noise, while least squares regression is highly sensitive to noise and can produce unreliable results. In cases where both variables have noise, both PCA and least squares regression perform similarly, but PCA is still more robust to noise.
+#PCA performs better in the second case(in part4) which is the case where our data consists of noisy estimates of both x and y. We can clearly see from the plot that when both x and y are noisy, slope from first principal component is more accurate i.e close to 2. On the other hand, least squares perform better when there is noise only in y variable & x is fixed noisefree.
+
 
 # Causal Inference Questions
 This repository contains a set of questions and answers related to Causal Inference, a field of statistics that deals with inferring causality between variables in observational studies and experiments.
